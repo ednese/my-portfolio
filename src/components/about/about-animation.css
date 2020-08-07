@@ -1,0 +1,13 @@
+@keyframes skills-content {
+    100% {
+        margin-bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes skills {
+    100% {
+        margin-top: 80px;
+        opacity: 1;
+    }
+}

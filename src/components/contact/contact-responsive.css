@@ -1,0 +1,89 @@
+@media screen and (max-width: 1300px) {
+    .contactContainer .title {
+        font-size: 30px;
+    }
+
+    .contactContainer .desc {
+        font-size: 20px;
+    }
+
+    .contactContainer .contactme {
+        font-size: 25px;
+        height: 60px;
+        width: 250px;
+    }
+
+    .contactContainer .background {
+        height: 300px;
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contactContainer .title {
+        font-size: 25px;
+    }
+
+    .contactContainer .desc {
+        font-size: 15px;
+        width: 600px;
+    }
+
+    .contactContainer .contactme {
+        font-size: 20px;
+        height: 50px;
+        width: 200px;
+    }
+
+    .contactContainer .background {
+        height: 250px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contactContainer .title {
+        font-size: 25px;
+    }
+
+    .contactContainer .desc {
+        font-size: 15px;
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .contactContainer .contactme {
+        font-size: 20px;
+        height: 50px;
+        width: 200px;
+    }
+
+    .contactContainer .background {
+        margin-top: 0px;
+        height: 250px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactContainer .title {
+        font-size: 12px;
+    }
+
+    .contactContainer .desc {
+        font-size: 10px;
+        width: 180px;
+    }
+
+    .contactContainer .contactme {
+        font-size: 10px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .contactContainer .background {
+        margin-top: 0px;
+        height: 200px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,82 @@
+@media screen and (max-width: 1300px) {
+    .homeContainer .evanSende {
+        font-size: 80px;
+    }
+    
+    .homeContainer .texte {
+        font-size: 30px;
+    }
+    
+    .homeContainer .CV {
+        font-size: 25px;
+        height: 60px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeContainer .evanSende {
+        font-size: 60px;
+    }
+    
+    .homeContainer .texte {
+        font-size: 20px;
+    }
+    
+    .homeContainer .CV {
+        font-size: 20px;
+        height: 50px;
+        width: 200px;
+        margin-top: 100px;
+    }
+
+    .homeContainer #arrow {
+        margin-top: 700px;
+    }
+    
+    .homeContainer #arrow img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .homeContainer .evanSende {
+        font-size: 50px;
+    }
+    
+    .homeContainer .texte {
+        font-size: 15px;
+    }
+
+    .homeContainer {
+        margin-top: 100px;
+    }
+
+    .homeContainer #arrow {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .homeContainer #arrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeContainer .evanSende {
+        font-size: 30px;
+    }
+    
+    .homeContainer .texte {
+        font-size: 10px;
+    }
+
+    .homeContainer .CV {
+        font-size: 10px;
+        height: 30px;
+        width: 100px;
+        margin-top: 30px;
+    }
+
+}

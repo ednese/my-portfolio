@@ -1,0 +1,108 @@
+.aboutContainer {
+    margin-top: 400px;
+}
+
+.aboutContainer #aboutme {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: -150px;
+    z-index: -1;
+}
+
+.aboutContainer .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutContainer .aboutContent .underline {
+    color: rgb(129, 198, 255);
+    text-decoration: underline;
+}
+
+.aboutContainer .About {
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffc35c;
+    transition: all ease-in-out 0.3s;
+}
+
+.aboutContainer .title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 80px;
+    color: #ffc35c;
+}
+
+.aboutContainer .paragraphe {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 40px;
+    width: 1000px;
+    color: #ffffff;
+}
+
+.aboutContainer .skills {
+    display: flex;
+}
+
+.aboutContainer .graphics,
+.aboutContainer .developement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    height: 180px;
+    width: 320px;
+    margin-right: 100px;
+    margin-left: 100px;
+    opacity: 0;
+    color: #ffffff;
+    background-color: #28334b;
+    border:2px solid #546b9c;
+    transition: all ease-in-out 0.5s;
+    animation: skills 1s forwards;
+}
+
+.aboutContainer .graphics:hover,
+.aboutContainer .developement:hover {
+    background-color: #3f5179;
+    cursor: pointer;
+}
+
+.aboutContainer .show {
+    opacity: 0;
+    margin-bottom: 40px;
+    animation: skills-content 1s forwards;
+}
+
+.aboutContainer .hide {
+    display: none;
+}
+
+.aboutContainer .graphics,
+.aboutContainer .developement {
+    background-color: #28334b;
+    border:2px solid #546b9c;
+}
+
+.aboutContainer .bg {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    height: 700px;
+    width: 1200px;
+    margin-top: 80px;
+    color: #ffc35c;
+    background-color: #1C2439;
+}

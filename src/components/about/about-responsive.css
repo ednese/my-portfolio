@@ -1,0 +1,158 @@
+@media screen and (max-width: 1500px) {
+    .aboutContainer .bg {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .aboutContainer .About {
+        font-size: 30px;
+    }
+
+    .aboutContainer .title {
+        font-size: 25px;
+    }
+
+    .aboutContainer .paragraphe {
+        font-size: 15px;
+        width: 600px;
+    }
+
+    .aboutContainer .skills {
+        margin-top: -50px;
+    }
+
+    .aboutContainer .graphics,
+    .aboutContainer .developement {
+        font-size: 15px;
+        height: 135px;
+        width: 240px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .aboutContainer .bg {
+        height: 540px;
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutContainer .About {
+        font-size: 25px;
+    }
+
+    .aboutContainer .title {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    .aboutContainer #T1 {
+        margin-top: 20px;
+    }
+
+    .aboutContainer .paragraphe {
+        font-size: 10px;
+        width: 400px;
+    }
+
+    .aboutContainer .graphics,
+    .aboutContainer .developement {
+        font-size: 12px;
+        height: 80px;
+        width: 160px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .aboutContainer .bg {
+        height: 350px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutContainer {
+        margin-top: 300px;
+    }
+
+    .aboutContainer .About {
+        font-size: 25px;
+    }
+
+    .aboutContainer .title {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    .aboutContainer #T1 {
+        margin-top: 20px;
+    }
+
+    .aboutContainer .paragraphe {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .aboutContainer .skills {
+        flex-direction: column;
+    }
+
+    .aboutContainer .graphics,
+    .aboutContainer .developement {
+        font-size: 12px;
+        height: 80px;
+        width: 160px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: -50px;
+    }
+
+    .aboutContainer .bg {
+        height: 500px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutContainer {
+        margin-top: 100px;
+    }
+
+    .aboutContainer .About {
+        font-size: 20px;
+    }
+
+    .aboutContainer .title {
+        font-size: 12px;
+        margin-top: 70px;
+    }
+
+    .aboutContainer #T1 {
+        margin-top: 20px;
+    }
+
+    .aboutContainer .paragraphe {
+        font-size: 10px;
+        width: 160px;
+    }
+
+    .aboutContainer .skills {
+        flex-direction: column;
+    }
+
+    .aboutContainer .graphics,
+    .aboutContainer .developement {
+        font-size: 8px;
+        height: 50px;
+        width: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: -50px;
+    }
+
+    .aboutContainer .bg {
+        height: 470px;
+        width: 200px;
+    }
+}

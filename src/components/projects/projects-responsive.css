@@ -1,0 +1,80 @@
+@media screen and (max-width: 1300px) {
+    .projectsContainer .projects {
+        font-size: 30px;
+    }
+
+    .projectsContainer .desc {
+        font-size: 25px;
+    }
+    .projectsContainer .grid-2 {
+        grid-gap: 50px;
+    }
+    
+    .projectsContainer .imgdiv {
+        height: 200px;
+        width: 370px;
+    }
+
+    .projectsContainer .info h1 {
+        font-size: 30px;
+    }
+    
+    .projectsContainer .info p {
+        width: 350px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .projectsContainer .projects {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+
+    .projectsContainer .desc {
+        font-size: 20px;
+    }
+
+    .projectsContainer .grid-2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .projectsContainer .info h1 {
+        font-size: 25px;
+    }
+
+    .projectsContainer .info p {
+        width: 350px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .projectsContainer .desc {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projectsContainer .projects {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+
+    .projectsContainer .desc {
+        width: 75%;
+    }
+
+    .projectsContainer .imgdiv {
+        height: 110px;
+        width: 200px;
+    }
+
+    .projectsContainer .info h1 {
+        font-size: 20px;
+    }
+    
+    .projectsContainer .info p {
+        width: 180px;
+    }
+}

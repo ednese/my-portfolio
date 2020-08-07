@@ -1,0 +1,19 @@
+@mixin arrowAnimation($first, $last) {
+  animation: Arrow-loop infinite 2s linear;
+  
+  @keyframes Arrow-loop {
+    from {
+        top: $first;
+    }
+    50% {
+        top: $last;
+    }
+    to {
+        top: $first;
+    }
+  }
+}
+
+.homeContainer #arrow {
+  @include arrowAnimation(0px, 80px)
+}

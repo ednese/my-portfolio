@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+  height: 80px;
+  width: 300px;
+  background-color: none;
+  color: white;
+  border:2px solid #FFC25C;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: #ffc35c;
+}

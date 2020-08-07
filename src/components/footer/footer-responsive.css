@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px) {
+    .footerContainer .quote {
+        font-size: 15px;
+    }
+
+    .footerContainer .author {
+        font-size: 20px;
+    }
+
+    .footerContainer .made {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    
+    .footerContainer .background {
+        height: 400px;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footerContainer .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footerContainer .quote {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .footerContainer .author {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .footerContainer .made {
+        margin-top: 10px;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .footerContainer .background {
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,58 @@
+.homeContainer {
+    margin-top: 300px;
+}
+
+.homeContainer #home {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: -400px;
+    z-index: -1;
+}
+
+.homeContainer .homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeContainer .evanSende,
+.homeContainer .CV,
+.homeContainer .texte {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all ease-in-out 0.3s;
+}
+
+.homeContainer .CV {
+    margin-top: 150px;
+}
+
+.homeContainer .evanSende {
+    font-size: 100px;
+}
+
+.homeContainer .texte {
+    font-size: 40px;
+}
+
+.homeContainer #arrow {
+    position: absolute;
+    margin-top: 800px;
+}
+
+.homeContainer #arrow img {
+    width: 40px;
+    transform: rotate(90deg);
+}
+
+.homeContainer #arrow img:hover {
+    cursor: pointer;
+}
+
