@@ -73,7 +73,6 @@
 .aboutContainer .graphics:hover,
 .aboutContainer .developement:hover {
     background-color: #3f5179;
-    cursor: pointer;
 }
 
 .aboutContainer .show {

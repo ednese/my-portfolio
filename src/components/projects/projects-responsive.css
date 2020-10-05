@@ -77,4 +77,8 @@
     .projectsContainer .info p {
         width: 180px;
     }
+
+    .projectsContainer .opace h1 {
+        width: 130px;
+    }
 }

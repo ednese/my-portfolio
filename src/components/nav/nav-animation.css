@@ -1,5 +1,4 @@
 .navContainer .open {
-    margin-top: 0px;
     z-index: 1;
     transform: rotate(0deg);
     animation: rotate-open 1s forwards;
@@ -7,66 +6,34 @@
 
 .navContainer .close {
     z-index: 1;
-    margin-top: 350px;
     transform: rotate(180deg);
     animation: rotate-close 1s forwards;
 }
 
 @keyframes rotate-open {
-    100% {margin-top: 350px;}
     100% {transform: rotate(180deg);}
 }
 
 @keyframes rotate-close {
-    100% {margin-top: 0px;}
     100% {transform: rotate(360deg);}
 }
 
 .navContainer .openNav {
-    margin-top: -150px;
+    margin-top: 0px;
     animation: nav-open 1s forwards;
 }
 
 .navContainer .closeNav {
-    margin-top: 50px;
+    margin-top: 400px;
     animation: nav-close 1s forwards;
 }
 
 @keyframes nav-open {
-    100% {margin-top: 50px;}
+    100% {margin-top: 400px;}
 }
 
 @keyframes nav-close {
-    100% {margin-top: -150px;}
-}
-
-.navContainer .openBg,
-.navContainer .closeBg {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-}
-
-.navContainer .openBg {
-    margin-top: -280px;
-    background-color: #13182500;
-    animation: bg-open 1s forwards;
-}
-
-.navContainer .closeBg {
-    margin-top: -50px;
-    background-color: #0e111b;
-    animation: bg-close 1s forwards;
-}
-
-@keyframes bg-open {
-    100% {margin-top: -50px;}
-    100% {background-color: #0e111b;}
-}
-
-@keyframes bg-close {
-    100% {margin-top: -280px;}
-    100% {background-color: #13182500;}
+    100% {margin-top: 0px;}
 }
 
 .navContainer .back{

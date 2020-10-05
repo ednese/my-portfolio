@@ -15,7 +15,7 @@ const Home = () => {
             <div className="homeContent">
                 <h1 className="evanSende">Evan Sende,</h1>
                 <h2 className="texte">Designer / Front End Developer, based in Paris.</h2>
-                <a href="../../CV-EVAN-Roi-Merlin-19.png" className="btn CV" target="_blank" rel="noopener noreferrer" download="CV">Download CV</a>
+                <a href="../../CV-EVAN.pdf" className="btn CV" target="_blank" rel="noopener noreferrer" download="CV">Download CV</a>
                 <a id="arrow" href="/#aboutme"><img src={arrow} alt="arrow"/></a>
             </div>
         </div>

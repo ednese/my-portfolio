@@ -7,14 +7,18 @@
 
 .navContainer .navContent {
     width: 100%;
+    flex-direction: column;
     display: flex;
     justify-content: center;
+    height: 100px;
     align-items: center;
 }
 
 .navContainer #navMenuPlus {
-    position: absolute;
     flex-direction: column;
+    background: #0e111b;
+    width: 100%;
+    padding: 22px;
     z-index: 1;
 }
 
@@ -36,14 +40,6 @@
     justify-content: center;
     align-items: center;
     color: rgb(180, 180, 180);
-}
-
-.navContainer .navContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
 }
 
 .navContainer .arrow {

@@ -13,7 +13,6 @@ const Nav = () => {
     let nbr = 0;
     const [navbar, setNavbar] = useState("default");
     const [navArrow, setNavArrow] = useState("");
-    const [background, setBackground] = useState("")
     const [navContent, setNavContent] = useState('navContent');
     
     const toggleNav = () => {
@@ -21,14 +20,12 @@ const Nav = () => {
         {
             nbr = 2;
             setNavbar("closeNav");
-            setBackground("closeBg");
             setNavArrow("close");
         }
         else if (nbr !== 1)
         {
             nbr = 1;
             setNavbar("openNav");
-            setBackground("openBg");
             setNavArrow("open");
         }
     }
@@ -41,7 +38,6 @@ const Nav = () => {
         if (nbr === 1)
         {
             setNavbar("closeNav");
-            setBackground("closeBg");
             setNavArrow("close");
         }
     }
@@ -53,7 +49,6 @@ const Nav = () => {
                 <div className={navArrow} id="arrow">
                     <img onClick={() => toggleNav()} src={arrow} className="arrow" alt="arrow"/>
                 </div>
-                <div className={background} id="background"/>
                 <ul className="navMenu">
                     <li><a href="/#home">Home</a></li>
                     <li><a href="/#aboutme">About me</a></li>

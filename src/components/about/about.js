@@ -44,9 +44,9 @@ const About = () => {
                 <h3 className="title">Hi! I am Evan. Nice to meet you.</h3>
                 <p className="paragraphe">
                 Photoshop, Illustrator, Xd, i use these softwares since 2015.
-                I have always loved the graphics’ universe and it helped me a lot when starting coding for websites.
+                I have always loved the graphic's universe and it helped me a lot when starting coding for websites.
                 Thanks to 42 school, this school i joined in 2019 where i improved a lot.
-                I am now building platforms with famous library react. You can now find some of my project below, on <a className="underline" href="https://github.com/ednese" target="_blank" rel="noopener noreferrer">GitHub</a> or <a className="underline" href="https://www.youtube.com/channel/UCtizZQJIawyacWVMO5ZRs7Q" target="_blank" rel="noopener noreferrer">Youtube</a>.
+                I am now building platforms with famous library react. You can now find some of my project below, on my new <a className="underline" href="https://github.com/ednese" target="_blank" rel="noopener noreferrer">GitHub</a> or <a className="underline" href="https://dribbble.com/Evan94" target="_blank" rel="noopener noreferrer">Dribble</a>.
                 </p>
                 <h3 id="T1" className="title">SKILLS</h3>
                 <div className="skills">
